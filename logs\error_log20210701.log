@@ -17,3 +17,21 @@
    at Newtonsoft.Json.Linq.JToken.AddBeforeSelf(Object content)
    at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
    at ExRules.mParser.ParseProperty() in /home/bat/Project/ExRules/mParser.cs:line 119
+2021-07-01 11:47:30.379 +07:00 [INF] Обработка файла - Пользователи
+2021-07-01 11:47:30.740 +07:00 [ERR] Исключение: Can not add property Фотография to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-01 11:47:30.741 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-01 11:47:30.759 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JToken.AddBeforeSelf(Object content)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseProperty() in /home/bat/Project/ExRules/mParser.cs:line 123
+2021-07-01 16:29:36.265 +07:00 [INF] Обработка файла - Пользователи
+2021-07-01 16:29:36.567 +07:00 [ERR] Исключение: Can not add property Фотография to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-01 16:29:36.574 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-01 16:29:36.599 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JToken.AddBeforeSelf(Object content)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseProperty() in /home/bat/Project/ExRules/mParser.cs:line 123

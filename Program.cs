@@ -35,7 +35,6 @@ namespace ExRules
             .CreateLogger();
 
 
-
             //     object TypeData;
             MMessages mMessages = new MMessages();
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -44,12 +43,12 @@ namespace ExRules
             Console.WriteLine("Версия 0.5");
 
             // Файл правил реквизиты
-            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SПользователи.json";//;args[0];
+            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SПользователи.json";  //;args[0];
             // Файл правил табличная часть
-            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FПользователи.json";//;args[1];
+            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FПользователи.json";  //;args[1];
             // Файл данных для корректировки
-            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/Пользователи.json";//;args[2];
-            ParserJson.NameRules = "Пользователи";//;args[3];
+            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/Пользователи.json";  //;args[2];
+            ParserJson.NameRules = "Пользователи";                                                  //;args[3];
 
             Log.Information("Обработка файла - " + ParserJson.NameRules);
             int reslt = ParserJson.StartParsing();
