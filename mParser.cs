@@ -68,7 +68,7 @@ namespace ExRules
                 {
                     ParseProperty();
                 }
-                // TODO: Здесь проверять что данные для обработки загружены CurRulesTab != null
+
                 if (CurRulesTab != null)
                 {
                     // Проверка содержит ли файл таб части со составными реквизитами
@@ -454,3 +454,4 @@ namespace ExRules
         }
 
     }
+}
