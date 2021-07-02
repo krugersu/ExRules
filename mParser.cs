@@ -34,6 +34,7 @@ namespace ExRules
 
         public mParser()
         {
+            { { } }
         }
 
 
