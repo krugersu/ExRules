@@ -1,0 +1,33 @@
+{
+	"#type": "jv8:Array",
+	"#value": [
+		{
+			"#type": "jv8:Structure",
+			"#value": [
+				{
+					"name": {
+						"#type": "jxs:string",
+						"#value": "ПрофилиГруппДоступа"
+					},
+					"Value": {
+						"#type": "jv8:Structure",
+						"#value": [
+							
+						]
+					}
+				
+
+				}
+
+
+			]
+
+
+		}
+
+				
+
+	]
+
+}
+

@@ -24,7 +24,7 @@ namespace ExRules
             // .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
             // .CreateLogger();
 
-
+            // TODO: Доделать проверку файлов и загрузки данных, что бы просто пропускаит обработку без ошибок
 
             Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Debug()
@@ -43,19 +43,24 @@ namespace ExRules
             Console.WriteLine("Версия 0.5");
 
             // Файл правил реквизиты
-            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SПользователи.json";  //;args[0];
-            // Файл правил табличная часть
-            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FПользователи.json";  //;args[1];
+            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SПрофилиГруппДоступа.json";  //;args[0];
+                                                                                                   // Файл правил табличная часть
+
+            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FПрофилиГруппДоступа.json";  //;args[1];
             // Файл данных для корректировки
-            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/Пользователи.json";  //;args[2];
-            ParserJson.NameRules = "Пользователи";                                                  //;args[3];
+            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/ПрофилиГруппДоступа.json";  //;args[2];
+            ParserJson.NameRules = "ПрофилиГруппДоступа";                                                  //;args[3];
 
             Log.Information("Обработка файла - " + ParserJson.NameRules);
-            int reslt = ParserJson.StartParsing();
+            int result = ParserJson.StartParsing();
 
-            string output = Newtonsoft.Json.JsonConvert.SerializeObject(ParserJson.stuff, Newtonsoft.Json.Formatting.Indented);
+            if (result == 0)
+            {
+                string output = Newtonsoft.Json.JsonConvert.SerializeObject(ParserJson.stuff, Newtonsoft.Json.Formatting.Indented);
 
-            File.WriteAllText(ParserJson.FileData, output);
+                File.WriteAllText(ParserJson.FileData, output);
+            }
+
             Log.CloseAndFlush();
 
             return result;

@@ -1,0 +1,796 @@
+2021-07-02 16:43:17.848 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 16:43:49.770 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 16:44:20.299 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 16:45:41.436 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 16:45:57.744 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 16:51:02.055 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.056 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.107 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.115 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.115 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.115 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.123 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.123 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.123 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.130 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.130 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.130 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.137 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.137 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.137 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.144 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.144 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.144 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.151 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.151 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.151 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.158 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.158 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.159 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.168 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.168 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.169 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.177 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.178 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.178 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.185 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.185 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.185 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.190 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.191 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.191 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.198 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.198 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.198 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.204 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.204 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.204 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.212 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.212 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.212 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.218 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.218 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.219 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.226 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.227 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.227 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.232 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.233 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.233 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.239 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.239 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.239 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.250 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.251 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.251 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 16:51:02.258 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 16:51:02.258 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 16:51:02.258 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 255
+2021-07-02 17:26:15.326 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:36:17.977 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:41:07.589 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:45:56.455 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:48:26.892 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:48:49.049 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:48:49.228 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.231 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.266 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.266 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.266 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.267 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.267 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.267 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.267 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.267 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.267 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.267 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.267 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.267 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.268 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.268 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.268 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.268 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.268 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.268 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.268 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.268 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.269 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.269 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.269 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.269 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.269 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.269 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.269 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.269 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.269 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.270 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.270 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.270 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.270 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.270 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.270 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.270 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.270 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.270 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.270 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.270 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.271 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.271 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.271 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.271 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.271 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.271 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.271 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.271 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.271 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.272 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.272 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.272 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.272 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.272 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.272 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.272 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.272 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.272 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:48:49.272 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 17:48:49.272 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 17:48:49.273 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 266
+2021-07-02 17:49:05.736 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:50:04.942 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:51:08.166 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:52:38.384 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:54:31.703 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:55:16.562 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 17:58:39.170 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 18:08:59.955 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 18:50:47.216 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 18:50:47.485 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.492 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.515 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.521 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.521 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.522 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.522 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.522 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.523 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.523 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.523 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.523 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.524 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.524 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.524 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.524 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.524 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.524 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.524 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.524 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.525 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.525 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.525 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.526 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.526 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.526 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.526 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.526 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.526 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.526 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.527 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.527 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.527 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.527 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.527 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.527 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.527 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.527 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.528 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.528 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.529 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.529 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.529 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.529 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.529 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.529 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.529 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.530 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.530 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.530 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.530 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.530 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.530 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.530 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.530 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.531 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.531 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.531 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.531 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.531 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:50:47.531 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:50:47.531 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:50:47.532 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.557 +07:00 [INF] Обработка файла - ГруппыДоступа
+2021-07-02 18:54:48.772 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.774 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.817 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.819 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.819 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.819 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.819 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.819 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.819 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.819 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.819 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.820 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.820 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.820 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.820 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.820 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.820 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.820 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.820 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.820 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.820 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.821 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.821 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.821 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.821 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.821 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.821 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.821 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.821 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.821 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.821 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.822 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.822 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.822 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.822 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.822 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.822 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.822 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.822 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.822 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.822 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.823 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.823 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.823 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.823 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.823 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.823 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.823 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.823 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.823 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.823 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.824 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.824 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.824 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.824 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.824 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.824 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.824 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.824 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.824 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:54:48.824 +07:00 [ERR] Исключение: Can not add property ВключаяНижестоящие to Newtonsoft.Json.Linq.JObject. Property with the same name already exists on object.
+2021-07-02 18:54:48.824 +07:00 [ERR] Метод: Void ValidateToken(Newtonsoft.Json.Linq.JToken, Newtonsoft.Json.Linq.JToken)
+2021-07-02 18:54:48.825 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   at Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   at Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 265
+2021-07-02 18:57:21.581 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 18:57:58.323 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:00:31.785 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:00:31.955 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:00:31.958 +07:00 [ERR] Исключение: Object reference not set to an instance of an object.
+2021-07-02 19:00:31.959 +07:00 [ERR] Метод: Void ParseTabPartWhithMultiValue()
+2021-07-02 19:00:31.967 +07:00 [ERR] Трассировка стека:    at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 221
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 67
+2021-07-02 19:00:57.240 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:00:57.411 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:01:49.820 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:01:49.989 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:04:22.287 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:04:22.457 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:06:41.629 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:07:41.646 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:07:41.821 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:07:41.873 +07:00 [ERR] Исключение: Cannot perform runtime binding on a null reference
+2021-07-02 19:07:41.875 +07:00 [ERR] Метод: System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object, System.String)
+2021-07-02 19:07:41.885 +07:00 [ERR] Трассировка стека:    at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 258
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 67
+2021-07-02 19:08:36.887 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:08:37.065 +07:00 [ERR] Исключение: Cannot perform runtime binding on a null reference
+2021-07-02 19:08:37.065 +07:00 [ERR] Метод: System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object, System.String)
+2021-07-02 19:08:37.075 +07:00 [ERR] Трассировка стека:    at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 258
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 67
+2021-07-02 19:09:10.030 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:09:31.017 +07:00 [ERR] Исключение: Cannot perform runtime binding on a null reference
+2021-07-02 19:09:31.018 +07:00 [ERR] Метод: System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object, System.String)
+2021-07-02 19:09:31.056 +07:00 [ERR] Трассировка стека:    at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 258
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 67
+2021-07-02 19:10:06.193 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:11:44.038 +07:00 [ERR] Исключение: Cannot perform runtime binding on a null reference
+2021-07-02 19:11:44.039 +07:00 [ERR] Метод: System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object, System.String)
+2021-07-02 19:11:44.071 +07:00 [ERR] Трассировка стека:    at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 258
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 67
+2021-07-02 19:12:53.962 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:16:11.900 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:20:25.090 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:20:25.263 +07:00 [ERR] Исключение: Accessed JArray values with invalid key value: "#value". Int32 array index expected.
+2021-07-02 19:20:25.266 +07:00 [ERR] Метод: Newtonsoft.Json.Linq.JToken get_Item(System.Object)
+2021-07-02 19:20:25.280 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 249
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 67
+2021-07-02 19:20:37.867 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:22:33.498 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:31:51.399 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:32:36.594 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:32:36.768 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 19:57:24.393 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:57:32.274 +07:00 [ERR] Исключение: Additional text encountered after finished reading JSON content: {. Path '', line 2, position 0.
+2021-07-02 19:57:32.275 +07:00 [ERR] Метод: Boolean Read()
+2021-07-02 19:57:32.322 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 60
+2021-07-02 19:57:57.479 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:58:01.870 +07:00 [ERR] Исключение: Additional text encountered after finished reading JSON content: {. Path '', line 2, position 0.
+2021-07-02 19:58:01.873 +07:00 [ERR] Метод: Boolean Read()
+2021-07-02 19:58:01.909 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 60
+2021-07-02 19:58:34.868 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 19:58:45.944 +07:00 [ERR] Исключение: Additional text encountered after finished reading JSON content: {. Path '', line 2, position 0.
+2021-07-02 19:58:45.944 +07:00 [ERR] Метод: Boolean Read()
+2021-07-02 19:58:46.008 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 60
+2021-07-02 19:59:24.680 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:07:22.262 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:08:56.733 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:09:00.155 +07:00 [ERR] Исключение: Invalid character after parsing property name. Expected ':' but got: }. Path '#value[1]', line 24, position 8.
+2021-07-02 20:09:00.157 +07:00 [ERR] Метод: Boolean ParseProperty()
+2021-07-02 20:09:00.201 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader, JsonLoadSettings options)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 60
+2021-07-02 20:09:16.793 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:09:20.476 +07:00 [ERR] Исключение: Error reading JObject from JsonReader. Current JsonReader item is not an object: Null. Path '', line 1, position 4.
+2021-07-02 20:09:20.477 +07:00 [ERR] Метод: Newtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)
+2021-07-02 20:09:20.501 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 63
+2021-07-02 20:10:14.848 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:10:20.197 +07:00 [ERR] Исключение: Error reading JObject from JsonReader. Current JsonReader item is not an object: Null. Path '', line 1, position 4.
+2021-07-02 20:10:20.197 +07:00 [ERR] Метод: Newtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)
+2021-07-02 20:10:20.236 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 63
+2021-07-02 20:11:08.512 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:11:34.564 +07:00 [ERR] Исключение: Error reading JObject from JsonReader. Current JsonReader item is not an object: Null. Path '', line 1, position 4.
+2021-07-02 20:11:34.565 +07:00 [ERR] Метод: Newtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)
+2021-07-02 20:11:34.607 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 63
+2021-07-02 20:11:41.702 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:12:06.574 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:12:14.105 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 20:34:19.455 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:34:19.700 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 20:34:19.709 +07:00 [ERR] Исключение: Cannot perform runtime binding on a null reference
+2021-07-02 20:34:19.709 +07:00 [ERR] Метод: Void CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+2021-07-02 20:34:19.719 +07:00 [ERR] Трассировка стека:    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid1[T0](CallSite site, T0 arg0)
+   at ExRules.mParser.ParseTabPartWhithMultiValue() in /home/bat/Project/ExRules/mParser.cs:line 270
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 71
+2021-07-02 20:35:17.354 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:35:47.900 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:35:57.319 +07:00 [WRN] В файле данных ТабличныеЧасти отсутствует информация от табличных частях!
+2021-07-02 20:39:09.117 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 20:39:10.551 +07:00 [ERR] Исключение: Could not find file '/home/bat/Project/ExRules/FПрофилиГруппДоступа.json'.
+2021-07-02 20:39:10.551 +07:00 [ERR] Метод: Void ThrowExceptionForIoErrno(ErrorInfo, System.String, Boolean, System.Func`2[Interop+ErrorInfo,Interop+ErrorInfo])
+2021-07-02 20:39:10.606 +07:00 [ERR] Трассировка стека:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 52
+2021-07-02 21:00:53.819 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:00:55.385 +07:00 [ERR] Исключение: Could not find file '/home/bat/Project/ExRules/FПрофилиГруппДоступа.json'.
+2021-07-02 21:00:55.387 +07:00 [ERR] Метод: Void ThrowExceptionForIoErrno(ErrorInfo, System.String, Boolean, System.Func`2[Interop+ErrorInfo,Interop+ErrorInfo])
+2021-07-02 21:00:55.410 +07:00 [ERR] Трассировка стека:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 52
+2021-07-02 21:01:12.412 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:01:15.562 +07:00 [ERR] Исключение: Could not find file '/home/bat/Project/ExRules/FПрофилиГруппДоступа.json'.
+2021-07-02 21:01:15.563 +07:00 [ERR] Метод: Void ThrowExceptionForIoErrno(ErrorInfo, System.String, Boolean, System.Func`2[Interop+ErrorInfo,Interop+ErrorInfo])
+2021-07-02 21:01:15.601 +07:00 [ERR] Трассировка стека:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 52
+2021-07-02 21:45:37.262 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:45:37.532 +07:00 [ERR] Исключение: Could not find file '/home/bat/Project/ExRules/FПрофилиГруппДоступа.json'.
+2021-07-02 21:45:37.532 +07:00 [ERR] Метод: Void ThrowExceptionForIoErrno(ErrorInfo, System.String, Boolean, System.Func`2[Interop+ErrorInfo,Interop+ErrorInfo])
+2021-07-02 21:45:37.559 +07:00 [ERR] Трассировка стека:    at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 62
+2021-07-02 21:46:02.672 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:47:22.380 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:49:48.731 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:49:51.674 +07:00 [ERR] Исключение: Error reading JObject from JsonReader. Current JsonReader item is not an object: Null. Path '', line 1, position 4.
+2021-07-02 21:49:51.675 +07:00 [ERR] Метод: Newtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)
+2021-07-02 21:49:51.730 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 74
+2021-07-02 21:50:12.445 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:50:16.749 +07:00 [ERR] Исключение: Error reading JObject from JsonReader. Current JsonReader item is not an object: Null. Path '', line 1, position 4.
+2021-07-02 21:50:16.749 +07:00 [ERR] Метод: Newtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)
+2021-07-02 21:50:16.795 +07:00 [ERR] Трассировка стека:    at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 74
+2021-07-02 21:50:34.968 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:51:02.209 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:51:20.926 +07:00 [ERR] Исключение: Object reference not set to an instance of an object.
+2021-07-02 21:51:20.926 +07:00 [ERR] Метод: Int32 StartParsing()
+2021-07-02 21:51:20.954 +07:00 [ERR] Трассировка стека:    at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 87
+2021-07-02 21:51:32.533 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:51:37.750 +07:00 [ERR] Исключение: Object reference not set to an instance of an object.
+2021-07-02 21:51:37.750 +07:00 [ERR] Метод: Int32 StartParsing()
+2021-07-02 21:51:37.782 +07:00 [ERR] Трассировка стека:    at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 87
+2021-07-02 21:52:26.627 +07:00 [INF] Обработка файла - ПрофилиГруппДоступа
+2021-07-02 21:52:36.777 +07:00 [ERR] Исключение: Object reference not set to an instance of an object.
+2021-07-02 21:52:36.778 +07:00 [ERR] Метод: Int32 StartParsing()
+2021-07-02 21:52:36.818 +07:00 [ERR] Трассировка стека:    at ExRules.mParser.StartParsing() in /home/bat/Project/ExRules/mParser.cs:line 87

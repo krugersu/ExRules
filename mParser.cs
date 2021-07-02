@@ -34,13 +34,7 @@ namespace ExRules
 
         public mParser()
         {
-            {
-                {
 
-
-
-                }
-            }
         }
 
 
@@ -48,36 +42,59 @@ namespace ExRules
         {
             try
             {
-                contentsRulesProperty = File.ReadAllText(FileRulesProperty);
-                contentsRulesTabPart = File.ReadAllText(FileRulesTabPart);
-                contentsData = File.ReadAllText(FileData);
 
+                if (File.Exists(FileRulesProperty))
+                {
+                    contentsRulesProperty = File.ReadAllText(FileRulesProperty);
+                    // Разбор файла с правилами шапки
+                    CurRules = JObject.Parse(contentsRulesProperty);
+                }
 
-                // Разбор файла с правилами шапки
-                CurRules = JObject.Parse(contentsRulesProperty);
+                if (File.Exists(FileRulesTabPart))
+                {
+                    contentsRulesTabPart = File.ReadAllText(FileRulesTabPart);
+                    // Разбор файла с правилами табличных частей
+                    CurRulesTab = JObject.Parse(contentsRulesTabPart);
+                }
 
-                // Разбор файла с правилами табличных частей
-                CurRulesTab = JObject.Parse(contentsRulesTabPart);
+                if (File.Exists(FileData))
+                {
+                    contentsData = File.ReadAllText(FileData);
+                    // Разбор файла с данными
+                    stuff = JObject.Parse(contentsData);
+                }
 
-                // Разбор файла с данными
-                stuff = JObject.Parse(contentsData);
+                if (CurRules != null)
+                {
+                    ParseProperty();
+                }
+                // TODO: Здесь проверять что данные для обработки загружены CurRulesTab != null
+                if (CurRulesTab != null)
+                {
+                    // Проверка содержит ли файл таб части со составными реквизитами
+                    if (CurRulesTab.SelectToken("$..tCombo") != null)
+                    {
+                        ParseTabPartWhithMultiValue();
+                    }
+                    else
+                    {
+                        ParseTabPart();
+                    }
+                }
+                //
 
-                ParseProperty();
-
+                return 0;
             }
             catch (System.Exception ex)
             {
                 Log.Error($"Исключение: {ex.Message}");
                 Log.Error($"Метод: {ex.TargetSite}");
                 Log.Error($"Трассировка стека: {ex.StackTrace}");
-
+                return 1;
             }
 
-
-
-
-            return 0;
         }
+
 
         private void ParseProperty()
         {
@@ -190,8 +207,121 @@ namespace ExRules
                 }
             }
 
+        }
+
+        private void ParseTabPartWhithMultiValue()
+        {
+
+            // Разбор правил табличных частей
+            NameRules = "ТабличныеЧасти";
+
+            // Список табличных частей
+
+            int x = 0;
 
 
+            JToken RlsTab = CurRulesTab.SelectToken("$.#value[?(@.name.#value == " + "'" + NameRules + "'" + " )]");
+            if (RlsTab != null) // Если описание табличных частей не отсутствует
+            {
+                foreach (var curR in RlsTab["Value"]["#value"])
+                {
+
+                    Console.WriteLine(curR["#value"] + " Наименование таб части");
+                    string CurTabCh = curR["#value"].ToString();
+                    JToken RlsRk = CurRulesTab.SelectToken("$.#value[?(@.name.#value == " + "'" + curR["#value"].ToString() + "'" + " )]");
+                    x++;
+                    foreach (var CurObj in RlsRk["Value"]["#value"])
+                    {
+                        //            Console.WriteLine(CurObj);
+
+                        JToken Action = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'Действие' )].Value.#value");
+                        JToken SourceName = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'ИмяСвойстваИсточник' )].Value.#value");
+                        JToken RecName = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'ИмяСвойстваПриемник' )].Value.#value");
+                        JToken TypeName = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'ТипСтрокойПриемник' )].Value.#value");
+                        JToken Order = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'Порядок' )].Value.#value");
+                        JToken Bef = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'Перед' )].Value.#value");
+
+                        TypeData = GetTypeValue(TypeName.ToString());
+                        Console.WriteLine(TypeData);
+
+
+                        JObject AddingToken = new JObject
+                            {
+                                { "#type", TypeName },
+                                { "#value", TypeData.ToString() }
+
+                            };
+
+
+                        dynamic TabC = stuff.SelectToken("$..#value[" + "'" + CurTabCh + "'" + "] ");
+                        if (TabC != null)
+                        {
+
+
+                            foreach (var Sdata in TabC)
+                            {
+
+                                //  Console.WriteLine((Sdata["#value"]["Ref"]));
+                                string tact = Action.ToString();
+
+                                switch (tact)
+                                {
+                                    case "Пропустить":
+                                        // Sdata["#value"].Property(SourceName.ToString()).Remove();
+                                        Sdata.Property(SourceName.ToString()).Remove();
+                                        break;
+                                    case "Добавить":
+                                        if (Bef.ToString() == "")
+                                        {
+                                            try
+                                            {
+                                                Sdata.Add(new JProperty(SourceName.ToString(), AddingToken));
+                                            }
+                                            catch (System.Exception ex)
+                                            {
+                                                Log.Error($"Исключение: {ex.Message}");
+                                                Log.Error($"Метод: {ex.TargetSite}");
+                                                Log.Error($"Трассировка стека: {ex.StackTrace}");
+                                            }
+
+                                        }
+                                        else
+                                        {
+                                            Sdata.Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), AddingToken));
+                                        }
+
+                                        break;
+                                    case "Переименовать":
+
+                                        try
+                                        {
+                                            Sdata.Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[SourceName.ToString()]));
+                                        }
+                                        catch (System.Exception ex)
+                                        {
+
+                                            Log.Error($"Исключение: {ex.Message}");
+                                            Log.Error($"Метод: {ex.TargetSite}");
+                                            Log.Error($"Трассировка стека: {ex.StackTrace}");
+                                        }
+
+                                        break;
+                                    default:
+
+                                        break;
+                                }
+
+                                //     }
+                            }
+                        }
+                        else
+                        {
+                            Log.Warning("В файле данных " + NameRules + " отсутствует информация от табличных частях!");
+                        }
+                    }
+
+                }
+            }
 
         }
 
@@ -324,6 +454,3 @@ namespace ExRules
         }
 
     }
-
-
-}
