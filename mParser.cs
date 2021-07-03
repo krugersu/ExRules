@@ -373,7 +373,7 @@ namespace ExRules
                                 switch (tact)
                                 {
                                     case "Пропустить":
-                                        if (Sdata["#value"] != null)
+                                        if (Sdata["#value"] != null)//
                                         {
                                             Sdata["#value"].Property(SourceName.ToString()).Remove();
                                         }
