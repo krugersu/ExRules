@@ -24,7 +24,7 @@ namespace ExRules
             // .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
             // .CreateLogger();
 
-            // TODO: Доделать проверку файлов и загрузки данных, что бы просто пропускаит обработку без ошибок
+            // TODO:  Доделать проверку файлов и загрузки данных, что бы просто пропускаит обработку без ошибок
 
             Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Debug()
@@ -43,13 +43,13 @@ namespace ExRules
             Console.WriteLine("Версия 0.5");
 
             // Файл правил реквизиты
-            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SПрофилиГруппДоступа.json";  //;args[0];
-                                                                                                   // Файл правил табличная часть
+            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SДополнительныеОтчетыИОбработки.json";  //;args[0];
+                                                                                                              // Файл правил табличная часть
 
-            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FПрофилиГруппДоступа.json";  //;args[1];
+            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FДополнительныеОтчетыИОбработки.json";  //;args[1];
             // Файл данных для корректировки
-            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/ПрофилиГруппДоступа.json";  //;args[2];
-            ParserJson.NameRules = "ПрофилиГруппДоступа";                                                  //;args[3];
+            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/ДополнительныеОтчетыИОбработки.json";  //;args[2];
+            ParserJson.NameRules = "ДополнительныеОтчетыИОбработки";                                                  //;args[3];
 
             Log.Information("Обработка файла - " + ParserJson.NameRules);
             int result = ParserJson.StartParsing();

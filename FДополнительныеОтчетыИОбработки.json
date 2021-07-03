@@ -1,0 +1,191 @@
+{
+	"#type": "jv8:Structure",
+	"#value": [
+		{
+			"name": {
+				"#type": "jxs:string",
+				"#value": "ТабличныеЧасти"
+			},
+			"Value": {
+				"#type": "jv8:Array",
+				"#value": [
+					{
+						"#type": "jxs:string",
+						"#value": "Назначение"
+					},
+					{
+						"#type": "jxs:string",
+						"#value": "Разделы"
+					}
+				]
+			}
+		},
+				
+		{
+			"name": {
+				"#type": "jxs:string",
+				"#value": "Назначение"
+			},
+			"Value": {
+				"#type": "jv8:Structure",
+				"#value": [
+					{
+						"name": {
+							"#type": "jxs:string",
+							"#value": "УдалитьПолноеИмяОбъектаМетаданных"
+						},
+						"Value": {
+							"#type": "jv8:Structure",
+							"#value": [
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "ИмяСвойстваИсточник"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "УдалитьПолноеИмяОбъектаМетаданных"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "ИмяСвойстваПриемник"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "УдалитьПолноеИмяОбъектаМетаданных"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "ТипСтрокойПриемник"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "Булево"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "Действие"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "Пропустить"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "Порядок"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": ""
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "Перед"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": {
+				"#type": "jxs:string",
+				"#value": "Разделы"
+			},
+			"Value": {
+				"#type": "jv8:Structure",
+				"#value": [
+					{
+						"name": {
+							"#type": "jxs:string",
+							"#value": "УдалитьИмяРаздела"
+						},
+						"Value": {
+							"#type": "jv8:Structure",
+							"#value": [
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "ИмяСвойстваИсточник"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "УдалитьИмяРаздела"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "ИмяСвойстваПриемник"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "УдалитьИмяРаздела"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "ТипСтрокойПриемник"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "Строка"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "Действие"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": "Пропустить"
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "Порядок"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": ""
+									}
+								},
+								{
+									"name": {
+										"#type": "jxs:string",
+										"#value": "Перед"
+									},
+									"Value": {
+										"#type": "jxs:string",
+										"#value": ""
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+		
+	]
+
+}
