@@ -450,6 +450,8 @@ namespace ExRules
                     return "";
                 case "Число":
                     return "0";
+                case "Дата":
+                    return "0001-01-01T00:00:00";
                 case "":
                     return "";
                 default:
