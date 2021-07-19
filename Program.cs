@@ -39,21 +39,21 @@ namespace ExRules
 
             Console.WriteLine("Версия 0.5");
 
-            // mParser ParserJson = new mParser
-            // {
-            //     FileRulesProperty = args[0],
-            //     FileRulesTabPart = args[1],
-            //     FileData = args[2],
-            //     NameRules = args[3]
-            // };
-            mParser ParserJson = new();
-            // Файл правил реквизиты
-            ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SДополнительныеОтчетыИОбработки.json";  //;args[0];
-            // Файл правил табличная часть
-            ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FДополнительныеОтчетыИОбработки.json";  //;args[1];
-            // Файл данных для корректировки
-            ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/ДополнительныеОтчетыИОбработки.json";  //;args[2];
-            ParserJson.NameRules = "ДополнительныеОтчетыИОбработки";                                                  //;args[3];
+            mParser ParserJson = new mParser
+            {
+                FileRulesProperty = args[0],
+                FileRulesTabPart = args[1],
+                FileData = args[2],
+                NameRules = args[3]
+            };
+            // mParser ParserJson = new();
+            // // Файл правил реквизиты
+            // ParserJson.FileRulesProperty = "/home/bat/Project/ExRules/SДополнительныеОтчетыИОбработки.json";  //;args[0];
+            // // Файл правил табличная часть
+            // ParserJson.FileRulesTabPart = "/home/bat/Project/ExRules/FДополнительныеОтчетыИОбработки.json";  //;args[1];
+            // // Файл данных для корректировки
+            // ParserJson.FileData = "/home/bat/Project/ExRules/bin/Debug/net5.0/ДополнительныеОтчетыИОбработки.json";  //;args[2];
+            // ParserJson.NameRules = "ДополнительныеОтчетыИОбработки";                                                  //;args[3];
 
             Log.Information("Обработка файла - " + ParserJson.NameRules);
             int result = ParserJson.StartParsing();

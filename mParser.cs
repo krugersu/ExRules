@@ -10,10 +10,10 @@ namespace ExRules
 
     internal class mParser
     {
-        public string FileRulesProperty;
-        public string FileRulesTabPart;
-        public string FileData;
-        public string NameRules;
+        public string FileRulesProperty { get; set; }
+        public string FileRulesTabPart { get; set; }
+        public string FileData { get; set; }
+        public string NameRules { get; set; }
         public dynamic stuff;
 
 
@@ -359,7 +359,7 @@ namespace ExRules
 
 
                         //    JToken TabC = stuff.SelectToken("$.Value.#value[?(@.name.#value == 'КонтактнаяИнформация' )].Value.#value");
-                        dynamic TabC = stuff.SelectToken("$..#value[" + "'" + CurTabCh + "'" + "] ");
+                        var TabC = stuff.SelectTokens("$..#value[" + "'" + CurTabCh + "'" + "] ");
                         if (TabC != null)
                         {
 
@@ -373,9 +373,13 @@ namespace ExRules
                                 switch (tact)
                                 {
                                     case "Пропустить":
-                                        if (Sdata["#value"] != null)//
+                                        if (Sdata != null)//
                                         {
-                                            Sdata["#value"].Property(SourceName.ToString()).Remove();
+                                            for (int i = 0; i < Sdata.Count; i++)
+                                            {
+                                                Sdata[i].Property(SourceName.ToString()).Remove();
+                                            }
+
                                         }
                                         else
                                         {
