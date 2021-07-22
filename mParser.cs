@@ -391,7 +391,11 @@ namespace ExRules
                                         {
                                             try
                                             {
-                                                Sdata.Add(new JProperty(SourceName.ToString(), TypeData));
+                                                for (int i = 0; i < Sdata.Count; i++)
+                                                {
+                                                    Sdata[i].Add(new JProperty(SourceName.ToString(), TypeData));
+                                                }
+                                                //  Sdata.Add(new JProperty(SourceName.ToString(), TypeData));
                                             }
                                             catch (System.Exception ex)
                                             {
@@ -403,7 +407,11 @@ namespace ExRules
                                         }
                                         else
                                         {
-                                            Sdata.Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), TypeData));
+                                            for (int i = 0; i < Sdata.Count; i++)
+                                            {
+                                                Sdata[i].Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), TypeData));
+                                            }
+
                                         }
 
                                         break;
@@ -411,7 +419,11 @@ namespace ExRules
 
                                         try
                                         {
-                                            Sdata.Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[SourceName.ToString()]));
+                                            for (int i = 0; i < Sdata.Count; i++)
+                                            {
+                                                Sdata[i].Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[i][SourceName.ToString()]));
+                                            }
+                                            //   Sdata.Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[SourceName.ToString()]));
                                         }
                                         catch (System.Exception ex)
                                         {
