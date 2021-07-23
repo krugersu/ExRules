@@ -119,6 +119,12 @@ namespace ExRules
                 // Обработка основных реквизитов
                 foreach (var Sdata in stuff["#value"])
                 {
+
+                    // Проверка - если это группа (справочника), то пропускаем анализ +
+                    if (Sdata["#value"]["IsFolder"] == true)
+                        continue;
+                    // Проверка на группу -  
+
                     string tact = Action.ToString();
 
                     switch (tact)
@@ -144,7 +150,15 @@ namespace ExRules
                             {
                                 try
                                 {
-                                    Sdata["#value"].Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), TypeData));
+                                    // Если происходит добавление перед таб частью, а таб части в элемента нет, тогда добавляем в конец
+                                    if (Sdata["#value"].Property(Bef.ToString()) != null)
+                                    {
+                                        Sdata["#value"].Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), TypeData));
+                                    }
+                                    else
+                                    {
+                                        Sdata["#value"].Add(new JProperty(SourceName.ToString(), TypeData));
+                                    }
                                 }
                                 catch (System.Exception ex)
                                 {
@@ -185,7 +199,16 @@ namespace ExRules
                                 }
                                 else
                                 {
-                                    Sdata["#value"].Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), exValue));
+                                    // Если происходит перенос перед таб частью, а таб части в элемента нет, тогда переносим в конец 
+                                    if (Sdata["#value"].Property(Bef.ToString()) != null)
+                                    {
+                                        Sdata["#value"].Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), exValue));
+                                    }
+                                    else
+                                    {
+                                        Sdata["#value"].Add(new JProperty(SourceName.ToString(), exValue));
+                                    }
+
                                 }
                             }
                             catch (System.Exception ex)
@@ -208,6 +231,122 @@ namespace ExRules
             }
 
         }
+
+        // private void ParseTabPartWhithMultiValue()
+        // {
+
+        //     // Разбор правил табличных частей
+        //     NameRules = "ТабличныеЧасти";
+
+        //     // Список табличных частей
+
+        //     int x = 0;
+
+
+        //     JToken RlsTab = CurRulesTab.SelectToken("$.#value[?(@.name.#value == " + "'" + NameRules + "'" + " )]");
+        //     if (RlsTab != null) // Если описание табличных частей не отсутствует
+        //     {
+        //         foreach (var curR in RlsTab["Value"]["#value"])
+        //         {
+
+        //             Console.WriteLine(curR["#value"] + " Наименование таб части");
+        //             string CurTabCh = curR["#value"].ToString();
+        //             JToken RlsRk = CurRulesTab.SelectToken("$.#value[?(@.name.#value == " + "'" + curR["#value"].ToString() + "'" + " )]");
+        //             x++;
+        //             foreach (var CurObj in RlsRk["Value"]["#value"])
+        //             {
+        //                 //            Console.WriteLine(CurObj);
+
+        //                 JToken Action = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'Действие' )].Value.#value");
+        //                 JToken SourceName = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'ИмяСвойстваИсточник' )].Value.#value");
+        //                 JToken RecName = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'ИмяСвойстваПриемник' )].Value.#value");
+        //                 JToken TypeName = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'ТипСтрокойПриемник' )].Value.#value");
+        //                 JToken Order = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'Порядок' )].Value.#value");
+        //                 JToken Bef = CurObj.SelectToken("$.Value.#value[?(@.name.#value == 'Перед' )].Value.#value");
+
+        //                 TypeData = GetTypeValue(TypeName.ToString());
+        //                 Console.WriteLine(TypeData);
+
+
+        //                 JObject AddingToken = new JObject
+        //                     {
+        //                         { "#type", TypeName },
+        //                         { "#value", TypeData.ToString() }
+
+        //                     };
+
+
+        //                 dynamic TabC = stuff.SelectToken("$..#value[" + "'" + CurTabCh + "'" + "] ");
+        //                 if (TabC != null)
+        //                 {
+
+
+        //                     foreach (var Sdata in TabC)
+        //                     {
+
+        //                         //  Console.WriteLine((Sdata["#value"]["Ref"]));
+        //                         string tact = Action.ToString();
+
+        //                         switch (tact)
+        //                         {
+        //                             case "Пропустить":
+        //                                 // Sdata["#value"].Property(SourceName.ToString()).Remove();
+        //                                 Sdata.Property(SourceName.ToString()).Remove();
+        //                                 break;
+        //                             case "Добавить":
+        //                                 if (Bef.ToString() == "")
+        //                                 {
+        //                                     try
+        //                                     {
+        //                                         Sdata.Add(new JProperty(SourceName.ToString(), AddingToken));
+        //                                     }
+        //                                     catch (System.Exception ex)
+        //                                     {
+        //                                         Log.Error($"Исключение: {ex.Message}");
+        //                                         Log.Error($"Метод: {ex.TargetSite}");
+        //                                         Log.Error($"Трассировка стека: {ex.StackTrace}");
+        //                                     }
+
+        //                                 }
+        //                                 else
+        //                                 {
+        //                                     Sdata.Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), AddingToken));
+        //                                 }
+
+        //                                 break;
+        //                             case "Переименовать":
+
+        //                                 try
+        //                                 {
+        //                                     Sdata.Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[SourceName.ToString()]));
+        //                                 }
+        //                                 catch (System.Exception ex)
+        //                                 {
+
+        //                                     Log.Error($"Исключение: {ex.Message}");
+        //                                     Log.Error($"Метод: {ex.TargetSite}");
+        //                                     Log.Error($"Трассировка стека: {ex.StackTrace}");
+        //                                 }
+
+        //                                 break;
+        //                             default:
+
+        //                                 break;
+        //                         }
+
+        //                         //     }
+        //                     }
+        //                 }
+        //                 else
+        //                 {
+        //                     Log.Warning("В файле данных " + NameRules + " отсутствует информация от табличных частях!");
+        //                 }
+        //             }
+
+        //         }
+        //     }
+
+        // }
 
         private void ParseTabPartWhithMultiValue()
         {
@@ -253,7 +392,7 @@ namespace ExRules
                             };
 
 
-                        dynamic TabC = stuff.SelectToken("$..#value[" + "'" + CurTabCh + "'" + "] ");
+                        var TabC = stuff.SelectTokens("$..#value[" + "'" + CurTabCh + "'" + "] ");
                         if (TabC != null)
                         {
 
@@ -267,15 +406,29 @@ namespace ExRules
                                 switch (tact)
                                 {
                                     case "Пропустить":
-                                        // Sdata["#value"].Property(SourceName.ToString()).Remove();
-                                        Sdata.Property(SourceName.ToString()).Remove();
+                                        if (Sdata != null)//
+                                        {
+                                            for (int i = 0; i < Sdata.Count; i++)
+                                            {
+                                                Sdata[i].Property(SourceName.ToString()).Remove();
+                                            }
+
+                                        }
+                                        else
+                                        {
+                                            Sdata.Property(SourceName.ToString()).Remove();
+                                        }
+
                                         break;
                                     case "Добавить":
                                         if (Bef.ToString() == "")
                                         {
                                             try
                                             {
-                                                Sdata.Add(new JProperty(SourceName.ToString(), AddingToken));
+                                                for (int i = 0; i < Sdata.Count; i++)
+                                                {
+                                                    Sdata[i].Add(new JProperty(SourceName.ToString(), AddingToken));
+                                                }
                                             }
                                             catch (System.Exception ex)
                                             {
@@ -287,16 +440,24 @@ namespace ExRules
                                         }
                                         else
                                         {
-                                            Sdata.Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), AddingToken));
+                                            for (int i = 0; i < Sdata.Count; i++)
+                                            {
+                                                Sdata[i].Property(Bef.ToString()).AddBeforeSelf(new JProperty(SourceName.ToString(), AddingToken));
+                                            }
                                         }
+
 
                                         break;
                                     case "Переименовать":
 
                                         try
                                         {
-                                            Sdata.Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[SourceName.ToString()]));
+                                            for (int i = 0; i < Sdata.Count; i++)
+                                            {
+                                                Sdata[i].Property(SourceName.ToString()).Replace(new JProperty(RecName.ToString(), Sdata[SourceName.ToString()]));
+                                            }
                                         }
+
                                         catch (System.Exception ex)
                                         {
 
@@ -324,6 +485,7 @@ namespace ExRules
             }
 
         }
+
 
         private void ParseTabPart()
         {
