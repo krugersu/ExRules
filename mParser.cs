@@ -4,15 +4,31 @@ using Serilog;
 //using Serilog.Events;
 using System;
 
+
 namespace ExRules
 {
 
 
     internal class mParser
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <value><strong>Файл с правилами шапки</strong></value>
         public string FileRulesProperty { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <value>Файл с правилами для табличной части</value>
+        ///  <remarks>
+        ///description
+        ///</remarks>
         public string FileRulesTabPart { get; set; }
         public string FileData { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <value>Имя объекта метаданных</value>
         public string NameRules { get; set; }
         public dynamic stuff;
 
@@ -37,7 +53,9 @@ namespace ExRules
 
         }
 
-
+        /// <summary>  
+        ///  Запускает разбор файла
+        /// </summary>  
         public int StartParsing()
         {
             try
@@ -95,7 +113,9 @@ namespace ExRules
 
         }
 
-
+        /// <summary>  
+        ///  Обработка реквизитов шапки
+        /// </summary>  
         private void ParseProperty()
         {
             Rls = CurRules.SelectToken("$.#value..#value[?(@.name.#value == " + "'" + NameRules + "'" + " )]");
@@ -347,7 +367,9 @@ namespace ExRules
         //     }
 
         // }
-
+        /// <summary>
+        /// Обработка табличных частей содержащих составные реквизиты 
+        /// </summary>
         private void ParseTabPartWhithMultiValue()
         {
 
@@ -617,7 +639,11 @@ namespace ExRules
             }
 
         }
-
+        /// <summary>
+        ///  Формирует значение для подстановки в элемент на основании типа
+        /// </summary>
+        /// <param name="Act">тип значения</param>
+        /// <returns>значение</returns>
         private object GetTypeValue(string Act)
         {
             switch (Act)
@@ -630,6 +656,8 @@ namespace ExRules
                     return "0";
                 case "Дата":
                     return "0001-01-01T00:00:00";
+                case "Неопределено":
+                    return null;
                 case "":
                     return "";
                 default:
