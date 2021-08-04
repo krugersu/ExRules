@@ -26,13 +26,10 @@ namespace ExRules
             // TODO:  Доделать проверку файлов и загрузки данных, что бы просто пропускаит обработку без ошибок
 
             string path = Directory.GetCurrentDirectory();
-            // mSettings mSettings 
             mSettings CurSet = new mSettings();
 
             CurSet.jsonString = File.ReadAllText(path + "\\setting.json");
             CurSet = JsonConvert.DeserializeObject<mSettings>(CurSet.jsonString);
-
-            // CurSet = JsonConvert.DeserializeObject<mSettings>(CurSet.jsonString);
             string LogFile = CurSet.PathLog;
 
             Log.Logger = new LoggerConfiguration()
@@ -47,7 +44,7 @@ namespace ExRules
             //     object TypeData;
             MMessages mMessages = new MMessages();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Title = "Обработка правил выгрузки 0.5";
+            Console.Title = "Обработка правил выгрузки 1.0";
 
             Console.WriteLine("Версия 0.5");
 
