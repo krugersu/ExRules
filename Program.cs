@@ -3,6 +3,7 @@ using Newtonsoft.Json.Linq;
 using System.IO;
 using Serilog;
 using Serilog.Events;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 
 
@@ -24,13 +25,23 @@ namespace ExRules
 
             // TODO:  Доделать проверку файлов и загрузки данных, что бы просто пропускаит обработку без ошибок
 
+            string path = Directory.GetCurrentDirectory();
+            // mSettings mSettings 
+            mSettings CurSet = new mSettings();
+
+            CurSet.jsonString = File.ReadAllText(path + "\\setting.json");
+            CurSet = JsonConvert.DeserializeObject<mSettings>(CurSet.jsonString);
+
+            // CurSet = JsonConvert.DeserializeObject<mSettings>(CurSet.jsonString);
+            string LogFile = CurSet.PathLog;
+
             Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Debug()
-            .WriteTo.Console()
-            .WriteTo.File("logs\\error_log.log", rollingInterval: RollingInterval.Day)
-            .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Information).WriteTo.File("logs\\info_log.log", rollingInterval: RollingInterval.Day))
-            //.WriteTo.File("logs\\info_log.log", rollingInterval: RollingInterval.Day, restrictedToMinimumLevel: LogEventLevel.Information)
-            .CreateLogger();
+                .MinimumLevel.Debug()
+                .WriteTo.Console()
+                .WriteTo.File(LogFile + "error_log.log", rollingInterval: RollingInterval.Day)
+                .WriteTo.Logger(l => l.Filter.ByIncludingOnly(e => e.Level == LogEventLevel.Information).WriteTo.File(LogFile + "info_log.log", rollingInterval: RollingInterval.Day))
+                //.WriteTo.File("logs\\info_log.log", rollingInterval: RollingInterval.Day, restrictedToMinimumLevel: LogEventLevel.Information)
+                .CreateLogger();
 
 
             //     object TypeData;
